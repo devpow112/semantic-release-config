@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": "@devpow112/eslint-config/node"
+}
