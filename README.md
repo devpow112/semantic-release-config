@@ -7,7 +7,7 @@
 [![Vulnerabilities][Vulnerabilities Badge]][Vulnerabilities Report]
 [![Node Version][Node Version Badge]](package.json#L35)
 
-Shareable Semantic Release configuration.
+Shareable semantic release configuration.
 
 ## Installation
 
@@ -17,7 +17,7 @@ npm i -D @devpow112/semantic-release-config
 
 ## Usage
 
-The shareable config can be configured in the [Semantic Release Configuration]
+The shareable config can be configured in the [Semantic Release configuration]
 file.
 
 ```json
@@ -83,4 +83,4 @@ npm run format:md
 [Release Workflow]: https://github.com/devpow112/semantic-release-config/actions/workflows/release.yml?query=branch%3Amain
 [Vulnerabilities Badge]: https://img.shields.io/snyk/vulnerabilities/github/devpow112/semantic-release-config?label=Vulnerabilities
 [Vulnerabilities Report]: https://snyk.io/test/github/devpow112/semantic-release-config
-[Semantic Release Configuration]: https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations
+[Semantic Release configuration]: https://semantic-release.gitbook.io/semantic-release/usage/shareable-configurations
