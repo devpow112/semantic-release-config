@@ -8,7 +8,10 @@ module.exports = {
         releaseRules: [
           { type: 'chore', scope: 'deps', release: 'patch' },
           { type: 'refactor', release: 'patch' }
-        ]
+        ],
+        parserOpts: {
+          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES']
+        }
       }
     ],
     [
