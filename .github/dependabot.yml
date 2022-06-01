@@ -29,3 +29,25 @@ updates:
     commit-message:
       prefix: chore
       include: scope
+    ignore:
+      - dependency-name: '@semantic-release/git'
+      - dependency-name: conventional-changelog-conventionalcommits
+      - dependency-name: semantic-release
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+      time: '04:00'
+      timezone: America/Toronto
+    versioning-strategy: increase
+    rebase-strategy: auto
+    labels:
+      - auto
+      - dependencies
+      - javascript
+    commit-message:
+      prefix: 'chore(peer-deps)'
+    allow:
+      - dependency-name: '@semantic-release/git'
+      - dependency-name: conventional-changelog-conventionalcommits
+      - dependency-name: semantic-release
