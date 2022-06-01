@@ -46,7 +46,7 @@ updates:
       - dependencies
       - javascript
     commit-message:
-      prefix: 'chore(peer-deps)'
+      prefix: 'chore(deps-peer)'
     allow:
       - dependency-name: '@semantic-release/git'
       - dependency-name: conventional-changelog-conventionalcommits
