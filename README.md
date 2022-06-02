@@ -4,7 +4,7 @@
 [![Version][Version Badge]][Version Package]
 [![Release][Release Badge]][Release Workflow]
 [![Vulnerabilities][Vulnerabilities Badge]][Vulnerabilities Report]
-[![Node Version][Node Version Badge]](package.json#L35)
+[![Node Version][Node Version Badge]](package.json#L35-L36)
 
 Shareable semantic release configuration.
 
