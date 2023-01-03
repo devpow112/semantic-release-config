@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/semantic-release-config",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Shareable semantic release configuration",
   "main": "src/config.js",
   "publishConfig": {
