@@ -19,10 +19,7 @@ jobs:
     needs:
       - ci
     permissions:
-      contents: write
       id-token: write
-      issues: write
-      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3.5.2
