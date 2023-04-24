@@ -4,7 +4,8 @@
   "description": "Shareable semantic release configuration",
   "main": "src/config.js",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "scripts": {
     "lint": "run-s -s lint:git lint:js lint:md",
@@ -37,7 +38,7 @@
   "peerDependencies": {
     "@semantic-release/git": "^10",
     "conventional-changelog-conventionalcommits": "^5",
-    "semantic-release": "^20"
+    "semantic-release": "^21"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
