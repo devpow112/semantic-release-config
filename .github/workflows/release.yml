@@ -18,6 +18,11 @@ jobs:
     timeout-minutes: 15
     needs:
       - ci
+    permissions:
+      contents: write
+      id-token: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3.5.2
@@ -33,5 +38,5 @@ jobs:
       - name: Release
         run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{secrets.RELEASE_TOKEN}}
+          GITHUB_TOKEN: ${{github.token}}
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
