@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@devpow112/commitlint-config": "^2.0.0",
-    "@devpow112/eslint-config": "^1.1.5",
+    "@devpow112/eslint-config": "^2.0.1",
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^5.0.0",
     "eslint": "^8.39.0",
