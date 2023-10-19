@@ -1,7 +1,7 @@
 module.exports = {
   branches: [
     'main',
-    '+([0-9])?(.{+([0-9]),x}).x'
+    'release/+([0-9])?(.{+([0-9]),x}).x'
   ],
   plugins: [
     [
