@@ -24,11 +24,11 @@
     "lint:js": "eslint . --ignore-path .gitignore",
     "lint:md": "markdownlint . --ignore-path .gitignore",
     "lint:git": "commitlint --from origin/main --to HEAD",
-    "lint:pkg": "npm run -s fix:pkg -- --check",
+    "lint:pkg": "sort-package-json --check",
     "fix": "run-s -s fix:js fix:md fix:pkg",
     "fix:js": "npm run -s lint:js -- --fix",
     "fix:md": "npm run -s lint:md -- --fix",
-    "fix:pkg": "sort-package-json"
+    "fix:pkg": "npm pkg fix && sort-package-json"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.1",
@@ -48,7 +48,7 @@
     "semantic-release": "^22"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "publishConfig": {
     "access": "public",
