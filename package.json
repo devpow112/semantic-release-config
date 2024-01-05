@@ -31,7 +31,7 @@
     "fix:pkg": "npm pkg fix && sort-package-json"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.3",
+    "@commitlint/cli": "^18.4.4",
     "@devpow112/commitlint-config": "^2.0.1",
     "@devpow112/eslint-config": "^2.0.2",
     "@semantic-release/git": "^10.0.1",
