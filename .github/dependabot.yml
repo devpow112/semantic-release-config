@@ -34,6 +34,7 @@ updates:
         dependency-type: development
         patterns:
           - eslint
+          - '@eslint/*'
           - '@devpow112/eslint-*'
       commitlint:
         dependency-type: development
