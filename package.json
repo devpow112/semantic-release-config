@@ -47,7 +47,7 @@
   },
   "peerDependencies": {
     "@semantic-release/git": "^10",
-    "conventional-changelog-conventionalcommits": "^8",
+    "conventional-changelog-conventionalcommits": "^9",
     "semantic-release": "^24"
   },
   "engines": {
