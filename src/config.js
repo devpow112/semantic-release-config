@@ -1,3 +1,5 @@
+const noteKeywords = ['BREAKING CHANGE', 'BREAKING CHANGES'];
+
 module.exports = {
   branches: [
     'main',
@@ -12,9 +14,7 @@ module.exports = {
           { type: 'chore', scope: 'deps', release: 'patch' },
           { type: 'refactor', release: 'patch' }
         ],
-        parserOpts: {
-          noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES']
-        }
+        parserOpts: { noteKeywords }
       }
     ],
     [
@@ -22,7 +22,6 @@ module.exports = {
       {
         labels: ['auto'],
         releasedLabels: ['released'],
-        assignees: ['devpow112'],
         addReleases: 'top'
       }
     ],
@@ -43,7 +42,8 @@ module.exports = {
             { type: 'test', section: 'Tests' },
             { type: 'build', section: 'Build System' }
           ]
-        }
+        },
+        parserOpts: { noteKeywords }
       }
     ],
     [
