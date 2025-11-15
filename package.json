@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/semantic-release-config",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "Shareable semantic release configuration",
   "keywords": [
     "semantic-release-config"
