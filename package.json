@@ -30,6 +30,10 @@
     "lint:md": "markdownlint . --ignore-path .gitignore",
     "lint:pkg": "sort-package-json --check"
   },
+  "dependencies": {
+    "@semantic-release/git": "^10",
+    "conventional-changelog-conventionalcommits": "^9"
+  },
   "devDependencies": {
     "@commitlint/cli": "^20",
     "@devpow112/commitlint-config": "^2",
@@ -38,15 +42,14 @@
     "eslint": "^9",
     "markdownlint-cli": "^0.45",
     "npm-run-all": "^4",
+    "semantic-release": "^25",
     "sort-package-json": "^3"
   },
   "peerDependencies": {
-    "@semantic-release/git": "^10",
-    "conventional-changelog-conventionalcommits": "^9",
-    "semantic-release": "^24"
+    "semantic-release": "^25"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22.14.0 || >=24.10.0"
   },
   "publishConfig": {
     "access": "public",
