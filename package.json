@@ -32,7 +32,8 @@
   },
   "dependencies": {
     "@semantic-release/git": "^10",
-    "conventional-changelog-conventionalcommits": "^9"
+    "conventional-changelog-conventionalcommits": "^9",
+    "semantic-release": "^25"
   },
   "devDependencies": {
     "@commitlint/cli": "^21",
@@ -42,11 +43,7 @@
     "eslint": "^9",
     "markdownlint-cli": "^0.48",
     "npm-run-all": "^4",
-    "semantic-release": "^25",
     "sort-package-json": "^3"
-  },
-  "peerDependencies": {
-    "semantic-release": "^25"
   },
   "engines": {
     "node": ">=22.14.0 || >=24.10.0"
