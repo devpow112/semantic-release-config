@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/semantic-release-config",
-  "version": "4.0.10",
+  "version": "4.0.11",
   "description": "Shareable semantic release configuration",
   "keywords": [
     "semantic-release-config"
@@ -35,7 +35,7 @@
     "conventional-changelog-conventionalcommits": "^9"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20",
+    "@commitlint/cli": "^21",
     "@devpow112/commitlint-config": "^2",
     "@devpow112/eslint-config": "^4",
     "@eslint/compat": "^2",
