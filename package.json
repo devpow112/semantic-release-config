@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@semantic-release/git": "^10",
-    "conventional-changelog-conventionalcommits": "^9",
+    "conventional-changelog-conventionalcommits": "^10",
     "semantic-release": "^25"
   },
   "devDependencies": {
